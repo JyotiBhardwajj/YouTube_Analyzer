@@ -1,0 +1,1132 @@
+video_id,title,description,published_at,views,likes,comments,channel
+4T3YlTSWa5s,How to stay curious as a dev in the AI hype era with Sumit Saha [Podcast #205],"Today Quincy Larson interviews Sumit Saha, a software engineer and prolific teacher on YouTube. Sumit is based in Dhaka, Bangladesh, where he runs a developer agency building projects for clients throughout Asia.
+
+We talk about:
+- How the hunger for learning is dying and people are increasingly drawn to shortcuts over taking the time to truly understand concepts
+- Sumit's information diet and his tips for expanding your skills
+- 5 key developer concepts explained like you're 5
+
+Support comes from the 10,104 kind folks who donate to our charity each month. Join them and support our mission at https://donate.freecodecamp.org
+
+Get a freeCodeCamp tshirt for $20 with free shipping anywhere in the US: https://shop.freecodecamp.org
+
+Links from our discussion:
+- Sumit's many freeCodeCamp handbooks and tutorials: https://www.freecodecamp.org/news/author/sumitsaha/
+- Sumit's website: https://www.sumitsaha.me/
+- Sumit's Bangla-language YouTube Channel: https://youtube.com/@LearnwithSumit
+- Sumit's English YouTube Channel: https://youtube.com/@logicBaseLabs
+
+Community news section:
+
+1. I spent three days at the San Francisco Palace of Fine Arts recording a documentary about the world's largest collegiate hackathon. More than 3,000 student developers participated in this year's UC Berkeley Cal Hacks hackathon. Over the course of 36 hours, they built a broad array of projects, then demo'd them to judges from industry. I now present to you the finished documentary. I hope you find it both enjoyable and inspiring. (80-minute documentary): https://www.freecodecamp.org/news/inside-cal-hacks-2025-36-hours-at-the-worlds-largest-collegiate-hackathon/
+
+2. freeCodeCamp also published a new course on building your own custom Kubernetes operators and controllers from scratch. You'll learn everything from the internal architecture of Informers and Caches to advanced concepts like Finalizers and Idempotency. If you're interested in DevOps, this is the course for you. (6 hour YouTube course): https://www.freecodecamp.org/news/build-your-own-kubernetes-operators-with-go-and-kubebuilder/
+
+3. Learn how to select the best GPU for economically training your models and running inference workloads. This no-nonsense guide will help you understand why certain specs matter more than others. It will also help you navigate around common pitfalls when buying or renting GPUs. (35 minute read): https://www.freecodecamp.org/news/how-to-choose-the-best-gpu-for-your-ai-workloads/
+
+4. Learn how to benchmark embedding models using your own custom data. This course will walk you through leveraging Vision Language Models for precise text extraction. You'll also learn how to use LLMs to generate synthetic evaluation data. Finally, you'll get exposure to the rigorous statistical tests that can help you find the best models for whatever hardware you have on hand. (4 hour YouTube course): https://www.freecodecamp.org/news/how-to-benchmark-embedding-models-on-your-own-data/
+
+5. Our song of the week: Supergroup The Power Station's 1985 hit ""Some Like it Hot"". This entire album features incredible drumming by Chic drummer Tony Thompson. And with Bass and Guitars by Duran Duran's John Taylor and Andy Taylor, the whole song has insane groove. 80s icon Robert Palmer sings and brings the texture. The guy reportedly smoked 60 cigarettes a day and paid the price a few years later, but man is his voice golden on this recording. Fun fact: Duran Duran's official site says they achieved the massive drum sound by putting mics at the top of a nearby elevator shaft. https://www.youtube.com/watch?v=Hw1t7OCESUw",2026-01-23T14:30:03Z,1515,163,16,primary
+3GqiUg3Ree4,From not growing up with computers to senior engineer - thanks to Prince of Persia,"Santosh didn't grow up with a computer in his home, but he was able to play Prince of Persia on computers at school. From there, he was hooked - and he discusses this with Quincy on the freeCodeCamp podcast.",2026-01-23T13:18:28Z,803,10,0,primary
+I7_WXKhyGms,RAG & MCP Fundamentals – A Hands-On Crash Course,"This practical crash course teaches you to build integrated AI systems rather than standalone tools. You will first master Retrieval-Augmented Generation (RAG) to connect models to your own data for accurate, context-aware answers. Next, you will learn the Model Context Protocol (MCP) to coordinate communication and actions across multiple software components. By the end, you will know how to use RAG for knowledge and MCP for system-level coordination to create sophisticated, multi-part applications.
+
+Hands-on Labs: https://kode.wiki/4nzgBbW
+
+❤️ Support for this channel comes from our friends at Scrimba – the coding platform that's reinvented interactive learning: https://scrimba.com/freecodecamp
+
+⭐️ Contents ⭐️
+Part 1: Retrieval Augmented Generation (RAG)
+- 0:00:00 Course Overview: Building Integrated AI Systems 
+- 0:00:52 The Simplest Explanation of RAG 
+- 0:01:50 Real-world Use Case: Internal Policy Chatbot 
+- 0:02:41 Understanding Retrieval, Augmenting, and Generation 
+- 0:04:12 When to use Prompt Engineering, Fine-Tuning, or RAG 
+- 0:06:40 Solving Voice and Style with Fine-Tuning 
+- 0:08:15 Why RAG is Best for Dynamic Factual Information 
+- 0:09:36 Keyword Search Techniques: TF-IDF and BM25 
+- 0:13:12 Hands-on Lab 1: Basic Search and Keyword Limitations 
+- 0:16:10 Introduction to Semantic Search and Meaning 
+- 0:18:01 Embedding Models: Parameter Size and Local vs. API Models 
+- 0:20:04 How Embeddings Convert Text into Mathematical Vectors 
+- 0:22:00 Vector Similarity and the Dot Product 
+- 0:27:08 Hands-on Lab 2: Implementing Semantic Search with Embedding Models 
+- 0:30:54 Scaling with Vector Databases: Chroma and Pinecone 
+- 0:32:15 Indexing Algorithms: HNSW, IVF, and LSH 
+- 0:35:53 Hands-on Lab 3: Initializing and Querying a Vector Database 
+- 0:39:21 The Precision Problem: Why Document Chunking is Essential 
+- 0:41:40 Chunking Strategies: Fixed-size, Overlap, and Boundary Rules 
+- 0:44:28 Hands-on Lab 4: Document Chunking and Optimized Retrieval 
+- 0:48:49 Bringing it All Together: The RAG Pipeline 
+- 0:50:40 Hands-on Lab 5: Building a Complete End-to-End RAG Pipeline 
+- 0:52:54 Production Concerns: Caching, Monitoring, and Error Handling 
+- 0:54:00 Implementation Strategies for Query, Embedding, and LLM Caching 
+- 0:56:51 Essential Metrics for Tracking RAG Performance 
+- 0:57:39 Production Architecture: Microservices on Kubernetes 
+
+Part 2: Model Context Protocol (MCP) 
+- 0:59:40 Introduction to Model Context Protocol (MCP) 
+- 1:00:59 The Role of AI Agents in Action-Oriented Systems 
+- 1:06:15 Why We Need Standardized Tools for Third-Party Interactions 
+- 1:08:00 MCP Architecture: Clients, Servers, and Local vs. Remote Hosting 
+- 1:10:12 Hands-on Lab 6: Setting up the AI Assistant Environment 
+- 1:12:40 Core MCP Components: Resources, Tools, and Prompts 
+- 1:14:13 Understanding the MCP Specification and JSON-RPC Protocol 
+- 1:22:55 Hands-on Lab 7: Connecting to and Using an Existing MCP Server 
+- 1:26:22 Building a Custom MCP Server with the Python SDK 
+- 1:29:12 Testing with the MCP Inspector 
+- 1:29:45 Hands-on Lab 8: Developing Resources, Tools, and Prompts for MCP 
+- 1:35:29 Building an MCP Client: Roots, Sampling, and Elicitation 
+
+🎉 Thanks to our Champion and Sponsor supporters:
+👾 @omerhattapoglu1158
+👾 @goddardtan
+👾 @akihayashi6629
+👾 @kikilogsin
+👾 @anthonycampbell2148
+👾 @tobymiller7790
+👾 @rajibdassharma497
+👾 @CloudVirtualizationEnthusiast
+👾 @adilsoncarlosvianacarlos
+👾 @martinmacchia1564
+👾 @ulisesmoralez4160
+👾 @_Oscar_
+👾 @jedi-or-sith2728
+👾 @justinhual1290
+
+--
+
+Learn to code for free and get a developer job: https://www.freecodecamp.org
+
+Read hundreds of articles on programming: https://freecodecamp.org/news",2026-01-22T14:27:46Z,18255,991,24,primary
+ojkbIKjRLIM,The challenges of turning a powerful braille learning prototype into real hardware,"Turning a powerful braille learning prototype into real hardware comes with challenges. On the freeCodeCamp podcast, Alison talks about redesigning for multiple characters, discussing needs with the visually impaired community, and more.",2026-01-22T12:52:23Z,3606,20,0,primary
+66hDgWottdA,Lean Dynamic Programming with Animations – Full Course for Beginners,"Master the art of Dynamic Programming by learning to break complex challenges into simple, reusable sub-problems. This course features step-by-step animations that bring abstract logic to life, showing you exactly how data flows through tables and recursion trees in real-time. Develop a powerful visual intuition for optimization so you can solve even the toughest algorithmic puzzles with ease. Sheldon created this course.
+
+❤️ Support for this channel comes from our friends at Scrimba – the coding platform that's reinvented interactive learning: https://scrimba.com/freecodecamp
+
+⭐️ Contents ⭐️
+— 0:00:00 Course Introduction and Visual Intuition  
+— 0:00:33 Fundamentals of Dynamic Programming  
+— 0:01:14 The Staircase Problem: Counting Paths  
+— 0:04:13 Implementing Recursive Solutions  
+— 0:06:26 The Inefficiency of Simple Recursion  
+— 0:07:32 Pattern 1: Memoization (Top-Down Approach)  
+— 0:11:39 Pattern 2: Tabulation (Bottom-Up Approach)  
+— 0:14:09 Comparing Memoization vs. Tabulation  
+— 0:16:34 Practice Problem: N-th Tribonacci Number  
+— 0:20:33 Optimization: Min Cost Climbing Stairs  
+— 0:28:56 Constant Transition Pattern and Space Optimization  
+— 0:30:46 Practice Problem: House Robber  
+— 0:34:08 Pattern 3: Grid Problems (2D DP)  
+— 0:34:41 Practice Problem: Unique Paths  
+— 0:39:54 Optimizing Space in Grid Problems  
+— 0:42:37 Practice Problem: Unique Paths II (With Obstacles)  
+— 0:45:19 Pattern 4: Two Sequences  
+— 0:45:47 Practice Problem: Longest Common Subsequence  
+— 0:57:48 Practice Problem: Edit Distance  
+— 1:01:34 Pattern 5: Interval DP  
+— 1:01:46 Practice Problem: Longest Palindromic Subsequence  
+— 1:11:57 Practice Problem: Palindromic Substrings  
+— 1:14:47 Pattern 6: Non-Constant Transition  
+— 1:15:05 Practice Problem: Longest Increasing Subsequence  
+— 1:23:11 Practice Problem: Partition Array for Maximum Sum  
+— 1:27:00 Pattern 7: Knapsack-like Problems  
+— 1:27:14 Practice Problem: Partition Equal Subset Sum  
+— 1:38:04 Practice Problem: Coin Change  
+— 1:41:27 Final Summary and Resources 
+
+🎉 Thanks to our Champion and Sponsor supporters:
+👾 @omerhattapoglu1158
+👾 @goddardtan
+👾 @akihayashi6629
+👾 @kikilogsin
+👾 @anthonycampbell2148
+👾 @tobymiller7790
+👾 @rajibdassharma497
+👾 @CloudVirtualizationEnthusiast
+👾 @adilsoncarlosvianacarlos
+👾 @martinmacchia1564
+👾 @ulisesmoralez4160
+👾 @_Oscar_
+👾 @jedi-or-sith2728
+👾 @justinhual1290
+
+--
+
+Learn to code for free and get a developer job: https://www.freecodecamp.org
+
+Read hundreds of articles on programming: https://freecodecamp.org/news",2026-01-21T15:31:14Z,43483,2666,98,primary
+2Kw3e-1vbBQ,Build your own The Backrooms horror game with Unreal Engine 5 & Blueprints – Full GameDev Tutorial,"Learn how to build a complete The Backrooms-style horror game in Unreal Engine 5 using Blueprints only. This step-by-step tutorial guides you from a blank project to a fully playable game including enemy AI, body cam camera style, jump scares, UI, puzzles and a complete environment!
+
+You will learn about blueprint interface, level optimization, and also building a package of your game for Windows.
+
+Course from @DevEdgeStudio 
+
+Resources: 
+All required asserts (Free): https://www.patreon.com/posts/free-resource-147272459?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link
+Complete Project: https://www.patreon.com/posts/back-room-game-147263536?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link
+
+❤️ Support for this channel comes from our friends at Scrimba – the coding platform that's reinvented interactive learning: https://scrimba.com/freecodecamp
+
+⭐️ Contents ⭐️
+– 0:00:00 Intro
+– 0:01:08 Overview
+– 0:01:58 Camera Setup
+– 0:22:30 Locomotion (Hand & Foot Steps, Crouching)
+– 0:54:21 Environment & Level Design
+– 1:14:44 Interactable Environment
+– 1:39:43 Puzzles & Doors (Blueprints)
+– 2:05:16 NPC Jumpscare
+– 2:10:15 Enemy AI
+– 2:39:01 UI & Main Menu (Cutscene)
+– 3:10:15 Optimization & Fixes
+– 3:15:33 Game Packaging
+– 3:19:15 Final Output (.exe Game File)
+– 3:20:12 Outro
+
+🎉 Thanks to our Champion and Sponsor supporters:
+👾 @omerhattapoglu1158
+👾 @goddardtan
+👾 @akihayashi6629
+👾 @kikilogsin
+👾 @anthonycampbell2148
+👾 @tobymiller7790
+👾 @rajibdassharma497
+👾 @CloudVirtualizationEnthusiast
+👾 @adilsoncarlosvianacarlos
+👾 @martinmacchia1564
+👾 @ulisesmoralez4160
+👾 @_Oscar_
+👾 @jedi-or-sith2728
+👾 @justinhual1290
+
+--
+
+Learn to code for free and get a developer job: https://www.freecodecamp.org
+
+Read hundreds of articles on programming: https://freecodecamp.org/news",2026-01-20T17:39:36Z,13862,598,31,primary
+3PD-vQbpwA8,Inside The World's Biggest Hackathon – Full Documentary on UC Berkeley's Cal Hacks,"This documentary will introduce you to the high-energy environment of Cal Hacks 2025, the world's largest collegiate hackathon, where over 2,500 students gather at the former Exploratorium in San Francisco to build innovative projects in just 36 hours. 
+
+Quincy Larson interviews various teams to showcase diverse creations ranging from AI-powered dance coaches and K-pop training apps to automated ""burger bots"" and deodorant-spraying robots. 
+
+Throughout the event, participants navigate technical challenges like limited Wi-Fi while demonstrating the intense work ethic, ingenuity, and community spirit that define modern developer culture.
+
+Cal Hacks 12.0 took place on October 24–26, 2025, at the Palace of Fine Arts in San Francisco, CA.
+
+Learn more about Cal Hacks: https://www.calhacks.io/
+
+Director: Beau Carnes
+Sound and Camera: Sunday Ajak
+Camera: Nathaniel Tham
+Music: Quincy Larson
+
+Chapters
+- 00:00 Introduction to Cal Hacks at the Exploratorium 
+- 00:42 The Scope: 2,500 Participants & 36 Hours 
+- 01:30 Exploring the Venue: Mezzanine to the Main Floor 
+- 01:57 Interview: Team San Jose State University (Rapid Learning & Pressure) 
+- 04:36 Interview: Anti-Deepfake Mobile App - Baran (Sacramento) 
+- 05:16 Interview: AI Dungeon Master for D&D - Julian & Colin (Colgate University) 
+- 07:27 Interview: Hackathon Project Management App - Kai, Ricardo, Kas 
+- 08:24 Interview: Kahoot Clone - Ji, Gilbert, Marian, Jason 
+- 09:31 Sepehr the Shark and Scenes 
+- 10:58 Interview: AI Dance Coach - Kai (UVA) & Ethan (Cal State Fullerton) 
+- 12:56 The Air Mattress Monoliths: Preparing to Sleep Under Tables 
+- 13:28 Interview: ASL Translator & Education Tools - Tri & Team 
+- 14:52 Interview: Spaced Repetition Information Retention - Nina, Krishna, Viha 
+- 16:12 Interview: Mentoring the Next Generation of Builders - Chinat Yu (Mentor Mates) 
+- 18:33 Interview: Advice for Competitive vs. Casual Hackers - Andrew (Volunteer) 
+- 22:33 Interview: Reducing Latency in LLM Development - Alex, Nathan, Abek, Prada 
+- 24:18 End of Day One: The 36-Hour Countdown 
+- 24:47 Day Two: Chasing Wi-Fi Waves & Hotspot Contraband 
+- 26:23 Interview: Trust Score Project (Credit Solutions for Immigrants) - 
+- 27:39 The ""Sleep Scale"": From 48 Hours Awake to Naps on Chairs 
+- 29:38 Interview: Finding Authentic Friction Points - Sophia (Big Tech PM) 
+- 30:53 Sophia’s Story: Turning Guitar Tabs into Sheet Music 
+- 33:01 Interview: VR Chat with AI Agents 
+- 33:25 Interview: Janitor Turned Dev - Shane 
+- 34:12 Interview: Creating a Safe Space for Innovation - Vincent (Sponsor) 
+- 35:30 Demo: Spaced Repetition UI/UX Reveal - Nina, Krishna, Viha 
+- 37:36 Demo: Elastic Brew (Telemetry-Powered Espresso Machine) - 
+- 39:31 Interview: Health Data App - Alex 
+- 40:32 Interview: Tactile Senses for the Visually Impaired - Cedric, Shao, David, Jin 
+- 41:39 Interview: High-Pressure Environments - Isasaki 
+- 43:06 Final 11 Hours: Ingenuity on Display 
+- 44:19 Interview: Managing 2,700 Developers - Dylan (Organizer) 
+- 46:26 Interview: The 9-Month Planning Sprint - Sam (Organizer) 
+- 51:14 Day Three: Code Lock & Proof of Concept 
+- 51:26 Demo: Automated Food Assembly - Princess, Zaira, Bhavya, Gabriele 
+- 53:00 Demo: Meight - Artem & Satya 
+- 54:30 Demo: Deodorant Robot - E, Mohammad, Nick, Eric 
+- 55:48 Demo: Voice Agent for ADHD Task Management - Maya, Candy, Hamad, Seif 
+- 57:41 Demo: Figure Flow - Payne, Michael, Joey 
+- 1:00:00 Demo: Recall Me - Abbey, Neha, Rudrika, Manchika 
+- 1:02:25 Demo: AI Government Tools - Angad, Sanjay, Rohan, Preet, Likhit 
+- 1:04:19 Demo: Desktop Automation - Hem, Pritish, Krishiv 
+- 1:05:12 Demo: Stock Explained - Saline, Anish, Kim 
+- 1:06:49 Demo: Persisting Context Across LLMs - Brenden, Katie, Jeana 
+- 1:09:55 Demo: VR Driver’s Ed with AI Feedback - Lukas, Shashwat, Brian 
+- 1:11:48 Demo: Group ""Vibe"" Restaurant Selection - Colin, Rick, Derek, Marvin 
+- 1:14:41 Demo: Platypus Academy - Kate & Andrew 
+- 1:16:43 Demo: K-pop Demon Hunters Academy - Skyler, Caleb, Kenneth, Sreerag 
+- 1:19:04 Closing Thoughts: Why You Should Attend a Hackathon",2026-01-14T17:28:53Z,133809,4125,181,primary
+nGxpctRd2OQ,Senior Developers are Vibe Coding Now (With SCARY results),"With everything starting to use AI, there are some serious concerns about the results.
+
+Check out Code Rabbit:  https://coderabbit.link/traversymedia
+
+Find all Traversy Media courses at https://www.traversymedia.com/
+
+Timestamps:
+
+00:00 - Intro
+00:46 - 32% of devs ship AI code
+1:52 - 45% of code is insecure
+2:30 - CodeRabbit report
+5:05 - Why issues are happening
+6:57 - Code reviews
+8:41 - AI code review tools
+10:45 - Using code rabbit",2026-01-16T16:40:36Z,21441,727,128,competitor_1
+8TMQcRcBnW8,FastAPI Crash Course - Modern Python API Development,"Learn the fundamentals of creating APIs with Python using the FastAPI framework.
+
+Check out our sponsor Code Rabbit:
+https://coderabbit.link/traversymedia
+
+Final Code & Docs:
+https://github.com/bradtraversy/fastapi-issue-tracker
+
+Devsheets.io FastAPI Cheat Sheet:
+https://www.devsheets.io/sheets/fastapi
+
+Timestamps:
+0:00 - Introduction
+1:06 - Sponsor (Code Rabbit)
+2:45 - What Is FastAPI? (Slides)
+8:25 - High Level Overview
+10:11 - Virtual Environment Setup
+11:43 - FastAPI Install & Basic Setup
+13:32 - Your First Route
+15:09 - Swagger Interactive Docs
+16:07 - Basic Item Route Examples
+19:00 - POST Requests
+20:50 - API Router Setup
+24:00 - JSON Storage Module
+28:39 - Pydantic Schemas
+36:10 - Issue GET Route
+37:50 - Issue POST Route
+43:26 - Issue PUT Route
+45:17 - Issue DELETE Route
+47:00 - Middleware (Timing Example)
+52:50 - CORS
+54:37 - Deploying to Render",2026-01-13T18:22:59Z,21098,1388,147,competitor_1
+G-3NpqWOAa8,Escaping tutorial hell,,2025-11-21T18:44:21Z,32737,1724,65,competitor_1
+qRp4AepVjl4,Understanding CORS,,2025-10-11T15:31:34Z,51260,1998,50,competitor_1
+oIx7ObcfdlU,My Current Tech Stack,"Lets talk about the tech stack I am using for projects today.
+
+Projects mentioned: 
+- https://webutils.io
+- https://www.devsheets.io
+- https://apimocker.com
+- https://apiprobe.dev
+
+Traversy Media courses: https://www.traversymedia.com",2025-09-09T13:06:56Z,69414,3667,247,competitor_1
+NaIIqJaF4hM,package-lock.json file explained,,2025-08-29T13:00:49Z,73511,2559,73,competitor_1
+1tF-vTlJ3xg,This is what I've been working on,"Promo Code: REACTNOW
+https://modernreactcourse.com
+
+Udemy:
+https://www.udemy.com/course/modern-react-from-the-beginning/?couponCode=REACTNOW",2025-07-14T15:04:31Z,45219,2672,283,competitor_1
+NKiTlo_dgb8,NextJS + Postgres and Error Monitoring  - Full Stack Support Ticketing System,"In this project, we will create a support ticket system with Next.js, Neon PostgreSQL, Prisma and we will implement error tracking and logging with Sentry.
+
+Sentry:
+https://sentry.io/signup/??utm_source=traversy&code=traversy
+
+Neon:
+https://fyi.neon.tech/2tm
+
+Code:
+https://github.com/bradtraversy/quick-ticket
+
+Timestamps:
+0:00 - Intro
+3:24 - Project Plan (Slides)
+8:33 - Next.js App Setup
+12:18 - Sentry Setup
+15:30 - Sentry Example
+20:21 - Neon PostgreSQL Setup
+21:40 - Prisma Initiliazation
+23:00 - Ticket Model
+25:10 - Prisma Migration & Generate Client
+26:51 - Prisma Studio
+27:23 - Git Init
+28:27 - Welcome Page
+32:30 - New Ticket Page
+34:20 - Start New Ticket Action
+38:30 - useActionState Hook
+41:31 - Form  Validation & Sentry Logging
+45:50 - Sentry Log Level
+47:00 - Capture Exceptions
+50:20 - Global Prisma Instance
+54:00 - Sentry addBreadcrumb
+55:40 - Test New Ticket Functionality
+56:47 - Sentry Helper Function
+1:05:34 - Redirect On Submit
+1:08:15 - Sonner Notifications
+1:11:00 - Custom Ticket Form Component
+1:13:59 - Get Tickets Action
+1:16:10 - Show Tickets
+1:23:12 - Priority Colors
+1:25:50 - Get Single Ticket Action
+1:28:30 - Ticket Details Page
+1:34:43 - Navbar
+1:37:25 - Start Custom Authorization
+1:38:40 - User Model & Ticket Relation
+1:44:00 - JWT Explanation
+1:46:11 - Authentication Flow
+1:48:58 - Create Main Auth File
+1:50:58 - signAuthToken Function
+1:53:47 - verifyAuthToken Function
+1:56:40 - setAuthCookie Function
+1:59:54 - getAuthCookie Function
+2:01:01 - removeAuthCookie Function
+2:02:30 - Register Users
+2:14:40 - Register Page & Form Hook Up
+2:20:40 - Get Current User 
+2:25:15 - Conditional Nav Links
+2:27:15 - Logout User
+2:35:00 - Login Page & Action
+2:48:30 - Check Sentry Logs
+2:51:00 - Ticket Authorization & Access Control
+2:58:57 -TicketItem Component
+3:01:55 - Close Ticket
+3:16:25 - Disable Closed Tickets",2025-05-13T13:00:39Z,37396,1333,77,competitor_1
+VR3p7almo_c,"Build & Deploy An AI-Powered Chat App | Vue, Node, TypeScript,  Open AI, Stream & Neon Database","In this project, we will build a full stack app that works similar to ChatGPT and answers prompts and keeps the context throughout the conversation. We will use Vue.js with Pinia for state management, Node and Express on the backend with TypeScript. Stream for the chat featrues and a Neon PostgreSQL database to store users and chat logs.
+
+Stream Chat:
+https://getstream.io/chat/sdk/react/?utm_source=youtube&utm_medium=referral&utm_content=&utm_campaign=traversymedia
+
+Neon Database:
+https://fyi.neon.tech/1traversy
+
+Code (Node/Express Backend):
+https://github.com/bradtraversy/chat-ai-api
+
+Code (Vue.js Frontend):
+https://github.com/bradtraversy/chat-ai-ui
+
+Timestamps:
+0:00 - Intro
+2:43 - Documentation URLs
+4:13 - Backend Init & Install Dependencies
+7:56 - Backend TypeScript Config
+10:03 - Express Server Setup
+13:35 - /register-user Endpoint Setup
+17:37 - Initialize Stream With API Keys
+21:17 - Register User With Stream Chat
+27:41 - /chat Endpoint & Open AI Init
+42:49 - Neon PostgreSQL Database Setup
+46:00 - Database Config & Neon Adapter
+48:46 - Drizzle Schema
+54:26 - Drizzle Config
+57:31 - Database Migration
+59:11 - Save Users In Neon PostgreSQL
+1:04:58 - Save Chats In Neon PostgreSQL
+1:09:38 - Get User Chat History
+1:15:22 - Frontend Init & Install Dependencies
+1:19:21 - TailwindCSS Setup & Clean Up
+1:22:02 - Router & Page Setup
+1:27:54 - Home Form Display
+1:31:52 - Reactive Variables & Input Bind
+1:37:24 - Pinia Initialization
+1:39:19 - Pinia User Store
+1:42:57 - Hook Up Home Form
+1:50:02 - Header & Leave Chat/Logout
+1:57:20 - Pinia Chat Store
+2:01:45 - Load Chat History Function/Request
+2:08:42 - Load Chat Into UI
+2:17:50 - Send Message Function/Request
+2:22:21 - Send Message Form
+2:29:32 - Get Context Of Chat
+2:37:37 - Format Output Text
+2:40:52 - Backend API Deploy To Render
+2:43:55 - Frontend Deploy To Vercel",2025-04-01T15:40:29Z,31328,1051,91,competitor_1
+V0P3Opf-zUs,"TTS & Translate App | Serverless Functions, Google Translate & Web Speech API","We will build a JavaScript web app that takes in some text and does TTS as well as the option to select a language to translate to. We will use the Vercel CLI and a serverless function fot the translation and API KEY security. Tailwind CSS for styling.
+
+Final Code:
+https://github.com/bradtraversy/tts-translate
+
+For more Vanilla JS projects, check out these courses:
+
+20 Vanilla JS Projects:
+https://www.traversymedia.com/20-Vanilla-JavaScript-Projects
+
+Modern JS From the Beginning:
+https://www.traversymedia.com/modern-javascript-2-0
+
+50 Projects In 50 Days:
+https://www.traversymedia.com/50-Projects-In-50-Days
+
+Timestamps:
+0:00 - Intro
+2:22 - Project Structure
+4:38 - HTML & Tailwind Classes
+8:32 - Web Speech API & TTS
+11:10 - Get Voices
+16:20 - Language Selection
+20:06 - Google Translate API Key Setup
+21:29 - Vercel CLI Setup
+23:57 - Creating a Serverless Function
+26:57 - dotenv Setup
+29:22 - Google Translate API Request
+32:58 - Test Function With Postman
+34:18 - Make Request To Serverless Function Endpoint
+38:39 - Translate Text & Play TTS
+43:21 - Deploy To Vercel",2025-01-20T15:00:40Z,18321,716,38,competitor_1
+vA5TTz6BXhY,Git & GitHub Crash Course 2025,"This is a crash course to learn the fundamentals of Git version control and the Github platform. Learn all of the core commands and the workflow to start learning Git.
+
+Sample Project Files:
+https://drive.google.com/file/d/1Lv7MtTuZa04p_wGNhYcrKD6TlGqXyBrc/view?usp=sharing
+
+Markdown Crash Course:
+https://www.youtube.com/watch?v=HUBNt18RFbo
+
+👇 Website & Courses:
+https://traversymedia.com
+
+💖  Show Support
+Patreon: https://www.patreon.com/traversymedia
+PayPal: https://paypal.me/traversymedia
+
+👇 Follow Me On Social Media:
+Twitter: https://twitter.com/traversymedia
+Instagram: https://www.instagram.com/traversymedia
+Linkedin: https://www.linkedin.com/in/bradtraversy
+
+Timestamps:
+
+0:00 - Intro
+1:08 - What Is Git? (Slides)
+4:35 - What Is GitHub?
+7:36 - Git Workflow Overview
+11:25 - Installation & Config
+13:20 - Sample Project Files
+14:49 - git init
+16:17 - git status
+16:30 - git add
+17:25 - git commit
+18:10 - Making Changes
+19:10 - git log
+19:56 - Create A Github Repo
+21:50 - git remote
+22:48 - git push
+23:30 - Readme File
+25:10 - git pull
+25:45 - .gitignore File
+27:31 - Commit Shortcuts
+29:30 - GIthub Interface Basics
+34:00 - SSH Keys
+38:00 - git clone
+39:00 - Branching
+42:14 - Pull Requests
+45:09 - Merging
+46:12 - CI/CD Pipeline With Vercel",2025-01-13T15:01:15Z,243361,7903,259,competitor_1
+ui0PmJtKGhQ,Build A Tesla Car Configurator | Tailwind & Vanilla JavaScript,"Build a Tesla Model Y Configurator interface using nothing but HTML, Tailwind CSS and JavaScript. 
+
+Code:
+https://github.com/bradtraversy/tesla-configurator-vanilla-js
+
+Codepen:
+https://codepen.io/bradtraversy/pen/jOgaRQg
+
+My Courses:
+https://traversymedia.com
+
+Timestamps:
+
+0:00 - Intro
+4:03 - Create Files
+5:40 - Base HTML
+7:08 - Top Bar & Header
+10:21 - Main Layout
+13:10 - Image Section
+15:46 - Start Sidebar
+16:28 - Exterior Buttons
+20:23 - Interior Buttons
+23:30 - Wheel Options
+25:38 - Full Self Driving
+27:36 - Performance Upgrade
+29:00 - Accessories & Pricing
+33:00 - JavaScript Start - Top Bar Animation
+38:07 - Color Buttons Select Border
+44:38 - Image Map Object
+47:36 - Change Image On Color Select
+50:17 - Wheel Selection
+56:04 - Refactor To Keep Selected Color
+1:02:34 - Performance Button Select
+1:05:14 - updateTotalPrice Function
+1:09:22 - Add Wheel Price
+1:10:43 - Add Performance Upgrade Price
+1:12:37 - Full Self-Driving Price
+1:16:43 - Accessories Price
+1:21:55 - Payment Breakdown Calculation",2024-10-29T14:41:08Z,31110,1198,68,competitor_1
+XMu46BRPLqA,Ultimate Guide To Web Scraping - Node.js & Python (Puppeteer & Beautiful Soup),"In this guide you will learn all about web scraping. We will go through some slides and then scrape a website using Node.js and the Puppeteer library as well as Python and the Beautiful Soup library.
+
+Check Out Our Sponsor: Bright Data @BrightData 
+https://brdta.com/traversy
+
+Code:
+https://github.com/bradtraversy/web-scraper-youtube
+
+Timestamps:
+0:00 - Intro
+2:01 - What Is Web Scraping?
+2:58 - Legal & Ethical Considerations
+3:42 - History Of Web Scraping
+4:41 - Why Use Web Scraping?
+5:53 - How Do Scrapers Work?
+6:57 - Tools & Libraries
+8:32 - Basic Steps
+10:28 - Additional Steps
+12:15 - What Are We Scraping?
+15:03 - Node.js Web Scraper
+33:44 - Python Web Scraper",2024-08-13T14:00:28Z,46961,1606,85,competitor_1
+MQ00BUttqr0,15 Myths & Misconceptions In Web Developement,"In this video, we will discuss some common myths that surround web development.
+
+Check Out My Courses:
+https://traversymedia.com
+
+Timestamps:
+0:00 - Intro
+1:01 - #1 One & Done
+2:00 - #2 You Need To Learn Everything
+2:34 - #3 You Need a Degree
+3:37 - #4 Web Development is Easy
+4:51 - #5 Front & Backend Are Completely Separate
+6:09 - #6 Web Development Is Dead
+7:23 - #7 Web Dev Is Just About Writing Code
+8:16 - #8 Wordpress Developers Are Not Real Developers
+9:45 - #9 You Need A Fancy Design
+11:09 - #10 The More Features, The Better
+11:46 - #11 You Need A Team
+12:38 - #12 Not All Websites Need To Be Responsive
+13:37 - #13 Websites Need To Be Perfect Before Launch
+14:44 - #14 SEO Is Only About Keywords
+15:35 - #15 You Always Need The Latest Technologies",2024-08-01T13:41:08Z,26436,1309,58,competitor_1
+VeNfHj6MhgA,Vue.js Crash Course,"3 Hour crash course of the Vue.js framework. You will learn all the fundamentals including components, directives, lifecycle, events and much more.
+
+Check Out Our Sponsor Daily.dev:
+https://daily.dev/traversy-media
+
+Full Project Code:
+https://github.com/bradtraversy/vue-crash-2024
+
+Blog Post:
+https://www.traversymedia.com/blog/vue-crash-course
+
+Check Out My Courses:
+https://traversymedia.com
+
+Timestamps:
+0:00 - Intro
+2:19 - Daily.dev Sponsor
+3:11 - What is Vue.js?
+4:45 - Prerequisites
+6:17 - Role of Frontend Frameworks
+8:40 - Why Vue.js?
+11:14 - Vue Components
+13:39 - Getting Setup
+15:40 - Using The Vue CDN
+20:54 - Create-Vue Setup
+22:30 - Vue Official Extension
+22:58 - Exploring Folders & Files
+26:10 - Boilerplate Clean Up
+26:50 - Component Structure
+27:25 - Options API data() & Interpolation
+28:36 - v-if, v-else & v-else-if Directives
+30:43 - v-for Directive & Looping
+32:17 - v-bind Directive
+33:36 - v-on Directive, Events & Methods
+35:55 - Composition API - Long Form
+39:08 - ref() & Reactive Values
+40:35 - Composition API Short Form
+42:41 - Forms & v-model
+46:38 - Delete task
+48:36 - Lifecycle Methods
+49:50 - onMounted & Fetching Data
+51:58 - Vue Jobs Project Start
+52:26 - Tailwind CSS Setup
+56:47 - Theme Files & Images
+58:16 - Navbar Component
+1:01:20 - Hero Component
+1:02:30 - Props
+1:04:57 - HomeCards & Card Container Component
+1:10:20 - JobListings Component & JSON Data
+1:16:47 - JobListing Component
+1:20:53 - JobListings Limit & showButton Props
+1:24:26 - computed() & Truncate Description
+1:30:41 - PrimeIcons
+1:32:35 - Vue Router & Home View
+1:39:52 - Jobs View
+1:41:55 - RouterLink
+1:46:07 - Navbar Active Link
+1:50:42 - Not Found Page
+1:56:27 - JSON Server REST API
+1:59:50 - Fetch Data For JobListings
+2:03:42 - reactive() Function
+2:05:15 - JobListings Refactor To reactive()
+2:07:26 - Vue Spinner
+2:09:50 - Fetch Single Job & Display Data
+2:19:06 -BackButton Component
+2:21:03 - Proxying
+2:23:54 - Add Job Page
+2:32:20 - Save Job POST
+2:37:15 - Toast Notifications
+2:40:08 - Delete Job
+2:44:14 - Edit Page
+2:47:06 - Fetch Job To Edit
+2:50:58 - Update Job
+2:52:50 - Netlify Deployment",2024-07-01T14:00:32Z,552123,10977,670,competitor_1
+M4TufsFlv_o,Bun in 100 Seconds,"Bun is a mega-fast JavaScript runtime for developers who want to nope out of their node modules folder. Let's run bun run. 
+
+#coding #programming #softwaredevelopment 
+
+🔗 Resources
+- https://bun.com/docs
+
+📚 Chapters
+
+🔥 Brain food for developers
+- https://fireship.dev
+
+🎨 My Editor Settings
+
+- Atom One Dark 
+- vscode-icons
+- Fira Code Font
+
+🔖 Topics Covered
+- The history of JavaScript runtimes
+- What is Bun?
+- How does Bun work?
+- Bun demo",2026-01-22T19:14:29Z,241207,19356,970,competitor_2
+9uW6B9LPntY,A brief history of programming...,"Try out the Junie coding agent in your JetBrains IDE - https://jb.gg/Fireship-Junie-AI
+
+Computing has come a long way since we figured out that 1s and 0s were pretty useful. In today's video, we look at the history of programming from the Turing machine to modern JavaScript...
+
+#coding #programming #tech #softwaredevelopment 
+
+🔥 Brain food for developers
+- https://fireship.dev
+
+🎨 My Editor Settings
+
+- Atom One Dark 
+- vscode-icons
+- Fira Code Font
+
+🔖 Topics Covered
+- Alan Turing
+- Werner Buchholz
+- Kathleen Booth
+- John McCarthey
+- Edsger Dijkstra
+- Dennis Ritchie
+- Ken Thompson
+- Bjarne Stroustrup
+- Anders Hejlsberg
+- Guido Van Rossum
+- James Gosling
+- Brendan Eich",2026-01-20T17:58:16Z,452440,30965,1202,competitor_2
+MFsYaRnrcPQ,.NET in 100 Seconds,".NET is a free and open-source platform for creating high-performance software in virtually every domain, powered primarily by the C# programming language.
+
+#coding #programming #softwaredevelopment 
+
+🔗 Resources
+- https://learn.microsoft.com/en-us/dotnet/
+
+🔥 Brain food for developers
+- https://fireship.dev
+
+🎨 My Editor Settings
+
+- Atom One Dark 
+- vscode-icons
+- Fira Code Font
+
+🔖 Topics Covered
+
+- The history of .NET
+- .NET explained
+- The .Net ecosystem
+- What can you build in .NET?
+- .NET demo",2026-01-16T17:03:35Z,408298,22160,1402,competitor_2
+EKOU3JWDNLI,The unhinged world of tech in 2026...,"Try Brilliant for free for 30 days - https://brilliant.org/fireship and get 20% off a premium annual subscription.
+
+From household robots to quantum computing...  In today's video, we'll look at 10 technology trends that are set to define 2026 for developers.  
+
+#tech #coding #programming #ai 
+
+💬 Chat with Me on Discord
+
+https://discord.gg/fireship
+
+🎨 My Editor Settings
+
+- Atom One Dark 
+- vscode-icons
+- Fira Code Font
+
+🔖 Topics Covered
+
+- Developer Job Market
+- AI Bubble
+- Robotics
+- Wearable AI
+- AR / VR
+- Chip Dominance
+- Nuclear Power
+- Quantum Computing
+- Digital Tyranny
+- Javascript",2026-01-14T19:01:19Z,1138297,43018,1343,competitor_2
+rEvEXQvo-F8,OpenAI was dead… Then GPT-5.2 dropped,"Deploying on Railway feels like magic. Get $20 in free credits to try it out - https://railway.com/?referralCode=fireship
+
+Sam Altman declared a code red, and OpenAI responded. GPT-5.2 is now at the top of most leaderboards and benchmarks, but is this actually getting us closer to real AGI, or is it just more smoke and mirrors to keep the hype train going?
+
+#Coding #AI #OpenAI #ChatGPT
+
+💬 Chat with Me on Discord
+
+https://discord.gg/fireship
+
+🔗 Resources
+- https://openai.com/index/introducing-gpt-5-2/
+
+📚 Chapters
+- Sam Altman’s Code Red Aarm
+- GPT 5.2 Arc Benchmarks
+- OpenAI Disney Deal
+- McDonalds AI Commercial
+
+🔥 Get More Content - Upgrade to PRO
+
+Upgrade at https://fireship.io/pro
+Use code YT25 for 25% off PRO access 
+
+🎨 My Editor Settings
+
+- Atom One Dark 
+- vscode-icons
+- Fira Code Font
+
+🔖 Topics Covered",2025-12-12T22:19:10Z,617635,20707,1243,competitor_2
+QLK9G5zyU-Q,React.js shell shocked by 10.0 critical vulnerability…,"Try out Genspark’s all-in-one AI workspace for free - https://www.genspark.ai/?utm_source=yt&utm_campaign=fireship
+
+The JavaScript world just got rocked by a 10.0 critical vulnerability called React2Shell (a.k.a. CVE-2025-55182). Let's find out how this React exploit actually works...
+
+#Coding #programming #javascript #react  
+
+💬 Chat with Me on Discord
+
+https://discord.gg/fireship
+
+🔗 Resources
+- https://github.com/facebook/react/security/advisories/GHSA-fv66-9v8q-g76r
+
+🔥 Get More Content - Upgrade to PRO
+
+Upgrade at https://fireship.io/pro
+Use code YT25 for 25% off PRO access 
+
+🎨 My Editor Settings
+
+- Atom One Dark 
+- vscode-icons
+- Fira Code Font
+
+🔖 Topics Covered
+
+- What is React2Shell?
+- CVE-2025-55182 explained
+- React Flight
+- Which React devs are affected?
+- What should you do?",2025-12-09T19:58:38Z,488578,16901,891,competitor_2
+5JMiNsV7P3Y,Anthropic just bought your favorite JS runtime...,"Try Brilliant for free - https://brilliant.org/fireship and get 20% off a premium annual subscription
+
+Anthropic just bought Bun - the super fast JavaScript runtime that's  universally loved by developers. In today's video, we'll break down why they did it, how Bun got here, and what their marriage might look like.
+
+💬 Chat with Me on Discord
+
+https://discord.gg/fireship
+
+🔗 Resources
+https://bun.com/blog/bun-joins-anthropic
+https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone
+
+📚 Chapters
+
+🔥 Get More Content - Upgrade to PRO
+
+Upgrade at https://fireship.io/pro
+Use code YT25 for 25% off PRO access 
+
+🎨 My Editor Settings
+
+- Atom One Dark 
+- vscode-icons
+- Fira Code Font
+
+🔖 Topics Covered",2025-12-05T21:43:51Z,398951,14042,518,competitor_2
+S6wc6yvoZLY,AI agents are paying each other now…,"Get up to 67% off Docker VPS to self-host your own app. Use code FIRESHIP for an extra discount -  https://hostinger.com/fireshipdocker
+
+Earlier this year, Coinbase changed online payments forever with a new protocol called x402. But could this technology really usher in a new age of 'machine to machine' payments? Let's run it...
+
+#ai #programming #coding 
+
+💬 Chat with Me on Discord
+- https://discord.gg/fireship
+
+🔗 Resources
+- https://www.x402.org/
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/402
+
+🔥 Get More Content - Upgrade to PRO
+
+Upgrade at https://fireship.io/pro
+Use code YT25 for 25% off PRO access 
+
+🎨 My Editor Settings
+
+- Atom One Dark 
+- vscode-icons
+- Fira Code Font
+
+🔖 Topics Covered
+- HTTP 402 Status Code
+- x402
+- x402 vs Stripe
+- Machine to machine payments
+- x402 demo",2025-11-26T18:20:32Z,470409,19268,905,competitor_2
+bsL7ZnKIAhs,Did Google just kill OpenAI?,"Get 20% off Mobbin Pro to make your apps not ugly - https://mobbin.com/fireship
+
+Gemini 3 may have just put Google in prime position to have the best-performing AI model by the end of the year. But how powerful is it really?
+
+#ai #coding #tech 
+
+💬 Chat with Me on Discord
+
+https://discord.gg/fireship
+
+🔗 Resources
+- https://blog.google/products/gemini/gemini-3/
+
+🔥 Get More Content - Upgrade to PRO
+
+Upgrade at https://fireship.io/pro
+Use code YT25 for 25% off PRO access 
+
+🎨 My Editor Settings
+
+- Atom One Dark 
+- vscode-icons
+- Fira Code Font
+
+🔖 Topics Covered
+- Gemini 3 release
+- Gemini 3 benchmarks
+- Google Antigravity",2025-11-21T19:26:50Z,925892,31157,1250,competitor_2
+tF_4baiIUiQ,The entire internet just crashed... again,"Break prod less with Sentry’s AI Code Review - https://sentry.io/fireship
+
+This week, it was Cloudflare's turn to take down your favourite domain.  In today's video, we'll try to find out why the internet keeps falling apart...
+
+#programming #coding #cloudflare 
+
+💬 Chat with Me on Discord
+
+https://discord.gg/fireship
+
+🔗 Resources
+- https://blog.cloudflare.com/18-november-2025-outage/
+
+🔥 Get More Content - Upgrade to PRO
+
+Upgrade at https://fireship.io/pro
+Use code YT25 for 25% off PRO access 
+
+🎨 My Editor Settings
+
+- Atom One Dark 
+- vscode-icons
+- Fira Code Font
+
+🔖 Topics Covered
+- Cloudflare outage explained
+- Which sites were affected
+- Why is the internet falling apart?",2025-11-19T18:14:26Z,753506,32134,1634,competitor_2
+Q8QdKRbC1O0,The gaming console wars just got weird...,"Try Brilliant for free - https://brilliant.org/fireship and get 20% off a premium annual subscription
+
+Valve just dropped the Steam Machine  - a console-like gaming pc that runs Arch under the hood. In today's video, we'll break down the details and ask if 2026 will finally be the year of the Linux desktop. 
+
+#coding #linux  #steam  #steamos  #valve 
+
+💬 Chat with Me on Discord
+
+https://discord.gg/fireship
+
+🔗 Resources
+- https://store.steampowered.com/sale/steammachine
+
+🔥 Get More Content - Upgrade to PRO
+
+Upgrade at https://fireship.io/pro
+Use code YT25 for 25% off PRO access 
+
+🎨 My Editor Settings
+
+- Atom One Dark 
+- vscode-icons
+- Fira Code Font
+
+🔖 Topics Covered
+- Valve Announce the Steam Machine
+- What is SteamOS
+- Proton Compatibility Layer
+- Will it run GTA6?",2025-11-14T18:30:07Z,662357,27421,1564,competitor_2
+IIj9UWpvSFI,This new JS framework wants you to quit React…,"Test drive the Kiro AI IDE for free - https://fandf.co/3IG1vCK
+
+RippleJS is a TypeScript UI framework that combines the best parts of React, Solid, and Svelte into one package. Let's run it...
+
+#coding  #programming #webdevelopment  
+
+💬 Chat with Me on Discord
+
+https://discord.gg/fireship
+
+🔗 Resources
+- https://www.ripplejs.com/
+
+📚 Chapters
+
+🔥 Get More Content - Upgrade to PRO
+
+Upgrade at https://fireship.io/pro
+Use code YT25 for 25% off PRO access 
+
+🎨 My Editor Settings
+
+- Atom One Dark 
+- vscode-icons
+- Fira Code Font
+
+🔖 Topics Covered
+
+- Who is Dominic Gannaway?
+- What is RippleJS?
+- Ripple key features
+- Typescript",2025-11-06T18:01:21Z,288858,11160,738,competitor_2
+HIp8sFB2GGw,Cursor 2.0 is here... 5 things you didn't know it can do,"Build better apps with PostHog - https://posthog.com/fireship
+
+Cursor, the IDE of choice for any self-respecting vibe engineer, just released version 2.0.
+
+In today's video, we'll take a first look at 5 new features every developer should know about.
+
+#coding #programming #ai
+
+💬 Chat with Me on Discord
+
+https://discord.gg/fireship
+
+🔗 Resources
+- https://cursor.com/blog/2-0
+
+🔥 Get More Content - Upgrade to PRO
+
+Upgrade at https://fireship.io/pro
+Use code YT25 for 25% off PRO access 
+
+🎨 My Editor Settings
+
+- Atom One Dark 
+- vscode-icons
+- Fira Code Font
+
+🔖 Topics Covered
+- Cursor 2.0 First Look
+- Cursor Composer 1
+- Agent Layout
+- Native Browser
+- Parallel Agents
+- In-editor Bugbot",2025-10-30T17:07:19Z,1008568,29886,1171,competitor_2
+HqL0xhwDz9s,US-EAST-1 is humanity’s weakest link…,"Traycer’s orchestration tool makes your coding agents smarter. Try it - https://traycer.ai
+
+Yesterday, over 2,500 internet services got wrecked by the most catastrophic cloud outage in history, courtesy of AWS.
+
+In today's video, we'll break down the technical details and explain how the world's addiction to cloud computing brought us all to our knees.
+
+#aws #tech #coding #programming
+
+💬 Chat with Me on Discord
+
+https://discord.gg/fireship
+
+🔗 Resources
+- https://www.techradar.com/news/live/amazon-web-services-alexa-ring-snapchat-fortnite-down-october-2025
+- https://www.youtube.com/watch?v=UVR9lhUGAyU
+
+🔥 Get More Content - Upgrade to PRO
+
+Upgrade at https://fireship.io/pro
+Use code YT25 for 25% off PRO access 
+
+🎨 My Editor Settings
+
+- Atom One Dark 
+- vscode-icons
+- Fira Code Font
+
+🔖 Topics Covered
+- How AWS brought down the internet
+- How cloud storage works
+- US-EAST-1
+- WTF is DNS?",2025-10-21T16:54:32Z,1137245,43976,1912,competitor_2
+PLKrSVuT-Dg,How to make vibe coding not suck…,"Deploy your app the easy way with Sevalla and get $50 in free credits - https://sevalla.com/fireship
+
+AI coding may be overhyped but Model Context Protocols are making it possible for experienced devs to vibe code responsibly. In today's video, we'll look at 7 MCP servers that make programming with AI suck less...
+
+#coding #programming #ai
+
+💬 Chat with Me on Discord
+
+https://discord.gg/fireship
+
+🔗 Resources
+- https://svelte.dev/docs/mcp/overview
+- https://www.figma.com/mcp-catalog/
+- https://awslabs.github.io/mcp/
+- https://docs.stripe.com/mcp
+- https://docs.sentry.io/product/sentry-mcp/
+- https://github.com/github/github-mcp-server
+- https://github.com/sooperset/mcp-atlassian
+
+📚 Chapters
+1. Framework optimizers
+2. Design implementers
+3. API executers
+4. Error catchers
+5. QA terminators
+6. Infra scalers
+7. Build your own
+
+🔥 Get More Content - Upgrade to PRO
+
+Upgrade at https://fireship.io/pro
+Use code YT25 for 25% off PRO access 
+
+🎨 My Editor Settings
+
+- Atom One Dark 
+- vscode-icons
+- Fira Code Font
+
+🔖 Topics Covered
+- What is an MCP server?
+- Vibe coding tips
+- Programming with ai
+- Best MCP servers for developers",2025-10-14T18:34:41Z,725670,26175,1143,competitor_2
