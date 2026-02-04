@@ -16,6 +16,7 @@ from app.routes.onboarding import router as onboarding_router
 from app.routes.analytics_routes import router as analytics_router
 from app.routes.analyze_csv import router as analyze_csv_router
 from app.routes.history import router as history_router
+from app.routes.users import router as users_router
 
 # ✅ CREATE TABLES ONCE
 Base.metadata.create_all(bind=engine)
@@ -40,6 +41,7 @@ app.include_router(insights_router)
 app.include_router(analytics_router)
 app.include_router(analyze_csv_router)
 app.include_router(history_router)
+app.include_router(users_router)
 
 @app.get("/")
 def home():

@@ -9,3 +9,7 @@ class User(Base):
     email = Column(String, unique=True, index=True)
     password = Column(String)
     onboarding_complete = Column(Boolean, default=False)
+    role = Column(String, nullable=True)
+    goal = Column(String, nullable=True)
+    weekly_summary_enabled = Column(Boolean, default=True)
+    competitor_alerts_enabled = Column(Boolean, default=True)

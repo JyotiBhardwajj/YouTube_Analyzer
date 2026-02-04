@@ -138,3 +138,55 @@ def fetch_channel_videos(channel_url: str, max_results: int = 10):
         })
 
     return videos
+
+
+def fetch_trending_videos_by_query(
+    query: str,
+    max_results: int = 6,
+    region_code: str = "US"
+):
+    """
+    Fetch trending videos by query (niche keywords) using YouTube search.
+    """
+    if not query:
+        return []
+
+    search_request = youtube.search().list(
+        part="id",
+        q=query,
+        maxResults=max_results,
+        order="viewCount",
+        regionCode=region_code,
+        type="video",
+        safeSearch="none"
+    )
+    search_response = search_request.execute()
+
+    video_ids = [
+        item["id"]["videoId"]
+        for item in search_response.get("items", [])
+        if item.get("id", {}).get("videoId")
+    ]
+
+    if not video_ids:
+        return []
+
+    video_request = youtube.videos().list(
+        part="snippet,statistics",
+        id=",".join(video_ids)
+    )
+    video_response = video_request.execute()
+
+    videos = []
+    for item in video_response.get("items", []):
+        snippet = item.get("snippet", {})
+        stats = item.get("statistics", {})
+
+        videos.append({
+            "title": snippet.get("title"),
+            "channel": snippet.get("channelTitle"),
+            "published_at": snippet.get("publishedAt"),
+            "views": int(stats.get("viewCount", 0))
+        })
+
+    return videos

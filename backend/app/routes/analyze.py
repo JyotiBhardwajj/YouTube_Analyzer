@@ -18,10 +18,47 @@ def analyze_youtube(
     current_user: User = Depends(get_current_user)
 ):
     channel_url = data.get("channel_url")
+    competitor_urls = data.get("competitor_urls") or []
+    own_max_results = data.get("own_max_results", 10)
+    competitor_max_results = data.get("competitor_max_results", 10)
     if not channel_url:
         raise HTTPException(status_code=400, detail="Channel URL required")
 
-    videos_data = fetch_channel_videos(channel_url)
+    if not isinstance(own_max_results, int) or own_max_results <= 0:
+        raise HTTPException(
+            status_code=400,
+            detail="own_max_results must be a positive integer"
+        )
+
+    if not isinstance(competitor_max_results, int) or competitor_max_results <= 0:
+        raise HTTPException(
+            status_code=400,
+            detail="competitor_max_results must be a positive integer"
+        )
+
+    own_max_results = min(own_max_results, 50)
+    competitor_max_results = min(competitor_max_results, 50)
+
+    if not isinstance(competitor_urls, list):
+        raise HTTPException(
+            status_code=400,
+            detail="competitor_urls must be a list"
+        )
+
+    competitor_urls = [
+        url.strip() for url in competitor_urls
+        if isinstance(url, str) and url.strip()
+    ]
+
+    if len(competitor_urls) > 5:
+        raise HTTPException(
+            status_code=400,
+            detail="At most 5 competitors allowed"
+        )
+
+    videos_data = fetch_channel_videos(
+        channel_url, max_results=own_max_results
+    )
 
 
     analysis = AnalysisRun(
@@ -47,11 +84,32 @@ def analyze_youtube(
         )
         db.add(video)
 
+    competitor_video_count = 0
+    for competitor_url in competitor_urls:
+        competitor_videos = fetch_channel_videos(
+            competitor_url, max_results=competitor_max_results
+        )
+        for v in competitor_videos:
+            competitor_video_count += 1
+            video = Video(
+                analysis_id=analysis.id,
+                video_id=v["video_id"],
+                title=v["title"],
+                views=v["views"],
+                likes=v["likes"],
+                comments=v["comments"],
+                engagement_rate=v["engagement_rate"],
+                source="competitor"
+            )
+            db.add(video)
+
     db.commit()
 
     return {
         "analysis_id": analysis.id,
-        "total_videos": len(videos_data)
+        "total_videos": len(videos_data),
+        "competitor_channels": len(competitor_urls),
+        "competitor_videos": competitor_video_count
     }
 
 

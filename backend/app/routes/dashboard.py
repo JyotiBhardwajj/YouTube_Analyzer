@@ -66,6 +66,30 @@ def get_dashboard_data(
         reverse=True
     )
 
+    # 5️⃣ Previous analysis (for growth comparison)
+    previous = (
+        db.query(AnalysisRun)
+        .filter(
+            AnalysisRun.user_id == current_user.id,
+            AnalysisRun.analyzed_at < analysis.analyzed_at
+        )
+        .order_by(AnalysisRun.analyzed_at.desc())
+        .first()
+    )
+
+    previous_avg_engagement = None
+    has_previous = False
+    if previous:
+        previous_videos = db.query(Video).filter(
+            Video.analysis_id == previous.id,
+            Video.source == "own"
+        ).all()
+        if previous_videos:
+            has_previous = True
+            previous_avg_engagement = round(
+                avg_engagement(previous_videos), 4
+            )
+
     # 5️⃣ Dashboard response
     return {
         "analysis_id": analysis_id,
@@ -74,6 +98,13 @@ def get_dashboard_data(
             "total_videos": len(own_videos),
             "avg_views": round(avg_views(own_videos), 2),
             "avg_engagement": round(avg_engagement(own_videos), 4),
+            "videos": [
+                {
+                    "title": v.title,
+                    "engagement_rate": v.engagement_rate
+                }
+                for v in own_sorted
+            ],
             "best_videos": [
                 {
                     "title": v.title,
@@ -100,5 +131,19 @@ def get_dashboard_data(
                 - avg_engagement(own_videos),
                 4
             )
-        }
+        },
+        "growth_trend": (
+            [
+                {
+                    "label": "Previous",
+                    "engagement": previous_avg_engagement or 0
+                },
+                {
+                    "label": "Current",
+                    "engagement": round(
+                        avg_engagement(own_videos), 4
+                    )
+                }
+            ] if has_previous else []
+        )
     }

@@ -53,7 +53,9 @@ def signup(data: SignupRequest, db: Session = Depends(get_db)):
         name=data.name,
         email=data.email,
         password=hashed_password,
-        onboarding_complete=False   # 🔥 IMPORTANT
+        onboarding_complete=False,   # 🔥 IMPORTANT
+        weekly_summary_enabled=True,
+        competitor_alerts_enabled=True
     )
 
     db.add(user)
