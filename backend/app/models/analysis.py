@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, DateTime, Float, ForeignKey
+from sqlalchemy import Column, Integer, String, DateTime, Float, ForeignKey, Text
 from sqlalchemy.orm import relationship
 from datetime import datetime
 from app.database import Base
@@ -22,6 +22,12 @@ class Video(Base):
     analysis_id = Column(Integer, ForeignKey("analysis_runs.id"))
     video_id = Column(String)
     title = Column(String)
+    description = Column(Text, nullable=True)
+    published_at = Column(DateTime, nullable=True)
+    transcript = Column(Text, nullable=True)
+    thumbnail_url = Column(String, nullable=True)
+    thumbnail_embedding = Column(Text, nullable=True)
+    thumbnail_brightness = Column(Float, nullable=True)
     views = Column(Integer)
     likes = Column(Integer)
     comments = Column(Integer)

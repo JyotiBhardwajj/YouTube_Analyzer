@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from app.youtube.youtube_fetch import fetch_channel_videos
+from app.youtube.youtube_fetch import fetch_channel_videos, parse_published_at
 from app.database import get_db
 from app.models.analysis import AnalysisRun, Video
 from app.dependencies.auth import get_current_user
@@ -76,6 +76,12 @@ def analyze_youtube(
             analysis_id=analysis.id,
             video_id=v["video_id"],
             title=v["title"],
+            description=v.get("description"),
+            published_at=parse_published_at(v.get("published_at")),
+            transcript=v.get("transcript"),
+            thumbnail_url=v.get("thumbnail_url"),
+            thumbnail_embedding=v.get("thumbnail_embedding"),
+            thumbnail_brightness=v.get("thumbnail_brightness"),
             views=v["views"],
             likes=v["likes"],
             comments=v["comments"],
@@ -95,6 +101,12 @@ def analyze_youtube(
                 analysis_id=analysis.id,
                 video_id=v["video_id"],
                 title=v["title"],
+                description=v.get("description"),
+                published_at=parse_published_at(v.get("published_at")),
+                transcript=v.get("transcript"),
+                thumbnail_url=v.get("thumbnail_url"),
+                thumbnail_embedding=v.get("thumbnail_embedding"),
+                thumbnail_brightness=v.get("thumbnail_brightness"),
                 views=v["views"],
                 likes=v["likes"],
                 comments=v["comments"],
